@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RemCom | Наши работы</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-wrap">
+        <a href="index.html" class="logo">
+          RemCom
+        </a>
+        <nav class="menu j-menu">
+          <ul>
+            <li>
+              <a href="rewiews.html">Отзывы</a>
+            </li>
+            <li>
+              <a href="faq.html">FAQ</a>
+            </li>
+            <li>
+              <a href="contacts.html">Контакты</a>
+            </li>
+            <li>
+              <a href="works.html">Наши работы</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="tel:+78128888888" class="header-phone">+7 812 888-88-88</a>
+        <button class="burger j-burger">menu</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="works">
+      <div class="works-inner">
+        <h1 class="works-title">Наши работы</h1>
+
+        <ul class="works-filter">
+          <li class="works-filter-item">
+            <a href="#" class="works-link j-works-link active" data-filter="all">Всё</a>
+          </li>
+          <li class="works-filter-item">
+            <a href="#" class="works-link j-works-link" data-filter="wood">Мебель</a>
+          </li>
+          <li class="works-filter-item">
+            <a href="#" class="works-link j-works-link" data-filter="tech">Техника</a>
+          </li>
+        </ul>
+
+        <div class="works-list">
+          <div class="works-item j-works-item" data-type="tech">
+            <div class="works-card">
+              <strong class="works-name">Чайник</strong>
+            </div>
+          </div>
+          <div class="works-item j-works-item" data-type="wood">
+            <div class="works-card">
+              <strong class="works-name">Стул</strong>
+            </div>
+          </div>
+          <div class="works-item j-works-item" data-type="wood">
+            <div class="works-card">
+              <strong class="works-name">Деревянные тапочки</strong>
+            </div>
+          </div>
+          <div class="works-item j-works-item" data-type="tech">
+            <div class="works-card">
+              <strong class="works-name">Микроволновка</strong>
+            </div>
+          </div>
+          <div class="works-item j-works-item" data-type="tech">
+            <div class="works-card">
+              <strong class="works-name">Холодос</strong>
+            </div>
+          </div>
+          <div class="works-item j-works-item" data-type="tech">
+            <div class="works-card">
+              <strong class="works-name">телефон</strong>
+            </div>
+          </div>
+          <div class="works-item j-works-item" data-type="wood">
+            <div class="works-card">
+              <strong class="works-name">Комод</strong>
+            </div>
+          </div>
+          <div class="works-item j-works-item" data-type="tech">
+            <div class="works-card">
+              <strong class="works-name">Электро-веник</strong>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="slider">
+      <div class="slider-inner">
+        <h2 class="slider-title">Фото наших работ</h2>
+        <div class="slider-wrap">
+          <div class="carousel j-carousel">
+            <div class="carousel-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat accusamus modi, eos dolor quisquam quia adipisci quas pariatur deserunt sequi. Accusantium eius ex, aliquam dignissimos quaerat eveniet minima distinctio voluptatibus.
+            </div>
+            <div class="carousel-item">Culpa facere earum porro ea cumque maiores, quis veritatis dolorem qui reiciendis repudiandae iste sit mollitia. Quae, dolorem vel ad, illo facilis obcaecati fugit dicta eius natus magnam, hic doloremque.
+            </div>
+            <div class="carousel-item">Minima dolor sunt odit inventore quibusdam possimus beatae perferendis earum aperiam, neque dignissimos, illum provident mollitia totam deleniti. Atque quaerat ipsa qui debitis. Eius cum temporibus amet dolorum aliquam hic.
+            </div>
+            <div class="carousel-item">Minus delectus saepe, optio voluptates doloremque illo a sit atque accusamus et aliquid ad, cum, omnis quas ab possimus dolorum! Enim ut, iste reprehenderit earum fugiat nam expedita molestias rerum.
+            </div>
+            <div class="carousel-item">Minus unde ut sunt sint tempore magni qui repellat facilis perferendis rem sit quo quisquam labore, assumenda id fugit repudiandae modi! Minus a distinctio facere, totam nostrum aliquam! Ullam, laborum!
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order">
+      <div class="order-inner">
+        <h2 class="order-title">Заявка на ремонт</h2>
+
+        <form action="" class="form">
+          <div class="form-field form-field-half">
+            <label for="name" class="form-label">Имя</label>
+            <input id="name" name="name" type="text" class="form-input">
+          </div>
+          <div class="form-field form-field-half">
+            <label for="phone" class="form-label">Телефон</label>
+            <input id="phone" name="phone" type="tel" class="form-input">
+          </div>
+          <div class="form-field">
+            <label for="message" class="form-label">Что ремонтируем?</label>
+            <textarea name="message" id="message" class="form-textarea"></textarea>
+          </div>
+          <div class="form-field">
+            <input id="checkbox" type="checkbox" name="checkbox" class="form-checkbox">
+            <label for="checkbox" class="form-checkbox-label">Даю согласие на обработку персональных данных с
+              соответствии с <a href="#">политикой обработки персональных данных</a></label>
+          </div>
+          <div class="form-field">
+            <button class="btn btn-form" type="submit">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-copyright">Ничего не защищено</p>
+      <ul class="social">
+        <li class="social-item">
+          <a href="#" class="social-link social-link-insta" title=""></a>
+        </li>
+        <li class="social-item">
+          <a href="#" class="social-link social-link-fb" title=""></a>
+        </li>
+        <li class="social-item">
+          <a href="#" class="social-link social-link-telega" title=""></a>
+        </li>
+      </ul>
+    </div>
+
+  <script src="scripts/jquery-3.6.0.min.js"></script>
+  <script src="scripts/slick.min.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>

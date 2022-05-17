@@ -1,0 +1,25 @@
+// Fonts
+$font-ral: 'Raleway', sans-serif;
+$font-open: 'Open Sans', sans-serif;
+
+$h1-fz-mobile: 20px;
+$h1-fz-tablet: 32px;
+$h1-fz-desktop: 48px;
+$h1-fw: 400;
+
+// colors
+$color-dark: #152B3C;
+$color-light: #FBF2DA;
+$color-orange: #D46240;
+
+// indents
+$gap: 30px;
+$gap-half: calc($gap / 2);
+
+// breakpoints
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1280px;
+
+$mobile-max: $tablet - 1;
+$tablet-max: $desktop - 1;

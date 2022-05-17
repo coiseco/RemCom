@@ -1,0 +1,27 @@
+.footer {
+  padding: 30px 0;
+  background-color: $color-dark;
+  color: $color-light;
+}
+
+.footer-copyright {
+  font-size: 20px;
+  line-height: 27px;
+  color: $color-light;
+
+  @media (max-width: $mobile-max) {
+    order: 1;
+    margin-top: 10px;
+  }
+}
+
+.footer-inner {
+  @include inner;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: $mobile-max) {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,11 @@
+.faq{
+
+}
+
+.faq-inner{
+  @include inner;
+}
+
+.accordeon-content{
+  display: none;
+}

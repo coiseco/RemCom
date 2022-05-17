@@ -1,0 +1,25 @@
+@mixin inner {
+  max-width: 1278px + $gap;
+  margin: 0 auto;
+  padding: 0 $gap-half;
+  // border: 1px solid red;
+}
+
+@mixin section-title {
+  font-family: $font-ral;
+  font-weight: 300;
+  font-size: 58px;
+  line-height: 68px;
+  color: $color-orange;
+  text-align: center;
+
+  @media (max-width: $tablet-max) {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
